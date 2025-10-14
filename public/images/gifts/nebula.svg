@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Nebula Birthday</title>
+  <desc id="desc">Комета и праздничные элементы</desc>
+  <rect width="800" height="600" fill="url(#g4)" rx="48" ry="48" />
+  <defs>
+    <linearGradient id="g4" x1="0" x2="1" y1="1" y2="0">
+      <stop offset="0" stop-color="rgba(255,255,255,0.75)" />
+      <stop offset="1" stop-color="rgba(255,255,255,0.25)" />
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="currentColor" stroke-width="7" opacity="0.7">
+    <path d="M140 420c80-120 200-120 320-40" />
+    <path d="M520 200l120-40-40 120-120 40z" />
+    <circle cx="240" cy="220" r="60" />
+  </g>
+</svg>

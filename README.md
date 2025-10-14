@@ -1,15 +1,15 @@
-# GiftOps
+# GiftOps Portal
 
-Простой Flask-приложение, которое отдаёт лендинг корпоративных подарков.
+GiftOps — Next.js-портал с модулем GiftGo для управления корпоративными подарками. Репозиторий содержит App Router, TypeScript и мок-слой данных для демонстрации функционала каталога и внутренних процессов.
 
-## Запуск
+## Скрипты
 
-1. Установите зависимости:
-   ```bash
-   pip install -r requirements.txt
-   ```
-2. Запустите сервер:
-   ```bash
-   python app.py
-   ```
-3. Откройте [http://localhost:5000](http://localhost:5000) в браузере.
+```bash
+npm install      # установка зависимостей
+npm run dev      # запуск dev-сервера
+npm run build    # production-сборка
+npm run start    # запуск собранного приложения
+npm run lint     # проверка ESLint
+npm run test     # юнит-тесты (Vitest)
+npm run e2e      # e2e-тесты (Playwright)
+```

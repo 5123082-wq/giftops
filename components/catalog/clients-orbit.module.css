@@ -1,0 +1,57 @@
+.section {
+  margin-block: 5rem;
+}
+
+.orbit {
+  position: relative;
+  width: min(620px, 90vw);
+  aspect-ratio: 1 / 1;
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
+  --orbit-rotation: 0rad;
+}
+
+.client {
+  position: absolute;
+  width: 140px;
+  height: 72px;
+  border-radius: 24px;
+  border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+  background: color-mix(in srgb, currentColor 7%, transparent);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  transform: rotate(calc(var(--orbit-rotation) + var(--index) * 2.094rad)) translateY(-240px) rotate(calc(-1 * (var(--orbit-rotation) + var(--index) * 2.094rad)));
+}
+
+.client:hover,
+.client:focus-visible {
+  transform: rotate(calc(var(--orbit-rotation) + var(--index) * 2.094rad)) translateY(-240px) scale(1.05)
+    rotate(calc(-1 * (var(--orbit-rotation) + var(--index) * 2.094rad)));
+  box-shadow: 0 12px 24px color-mix(in srgb, currentColor 25%, transparent);
+}
+
+.pulse {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 1px dashed color-mix(in srgb, currentColor 25%, transparent);
+  opacity: 0.6;
+}
+
+@media (max-width: 640px) {
+  .client {
+    width: 120px;
+    height: 60px;
+    transform: rotate(calc(var(--orbit-rotation) + var(--index) * 2.094rad)) translateY(-190px)
+      rotate(calc(-1 * (var(--orbit-rotation) + var(--index) * 2.094rad)));
+  }
+
+  .client:hover,
+  .client:focus-visible {
+    transform: rotate(calc(var(--orbit-rotation) + var(--index) * 2.094rad)) translateY(-190px) scale(1.05)
+      rotate(calc(-1 * (var(--orbit-rotation) + var(--index) * 2.094rad)));
+  }
+}

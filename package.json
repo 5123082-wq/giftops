@@ -1,0 +1,40 @@
+{
+  "name": "giftops",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "e2e": "playwright test",
+    "e2e:headed": "playwright test --headed"
+  },
+  "dependencies": {
+    "@tanstack/react-table": "^8.17.12",
+    "clsx": "^2.1.0",
+    "date-fns": "^3.6.0",
+    "framer-motion": "^11.0.20",
+    "next": "14.2.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "zustand": "^4.5.2",
+    "@radix-ui/react-slot": "^1.0.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.43.1",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.1",
+    "@types/node": "20.12.7",
+    "@types/react": "18.3.2",
+    "@types/react-dom": "18.3.0",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.3",
+    "jsdom": "24.0.0",
+    "typescript": "5.4.5",
+    "vitest": "1.5.0",
+    "@vitejs/plugin-react": "^4.2.1"
+  }
+}

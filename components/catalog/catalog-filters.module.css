@@ -1,0 +1,60 @@
+.wrapper {
+  margin-bottom: 2rem;
+}
+
+.form {
+  display: grid;
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+.searchLabel {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.searchLabel input {
+  padding: 0.6rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, currentColor 30%, transparent);
+  background: color-mix(in srgb, currentColor 8%, transparent);
+}
+
+.row {
+  display: grid;
+  gap: 1rem;
+}
+
+.row label,
+.sortRow label {
+  display: grid;
+  gap: 0.4rem;
+}
+
+select {
+  padding: 0.5rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, currentColor 30%, transparent);
+  background: color-mix(in srgb, currentColor 8%, transparent);
+}
+
+.checkbox {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 1.6rem;
+}
+
+.sortRow {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .row {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    align-items: end;
+  }
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" role="img" aria-labelledby="title desc">
+  <title id="title">Orbital Tech</title>
+  <desc id="desc">Логотип Orbital Tech</desc>
+  <rect width="320" height="120" rx="20" fill="rgba(255,255,255,0.2)" />
+  <text x="160" y="70" font-size="36" text-anchor="middle" fill="currentColor" font-family="Inter, sans-serif">Orbital</text>
+  <text x="160" y="100" font-size="16" text-anchor="middle" fill="currentColor" font-family="Inter, sans-serif">Tech</text>
+</svg>
