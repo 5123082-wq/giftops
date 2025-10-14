@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Aurora Delight</title>
+  <desc id="desc">Абстрактная иллюстрация набора подарков</desc>
+  <rect width="800" height="600" fill="url(#g1)" rx="48" ry="48" />
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="rgba(255,255,255,0.8)" />
+      <stop offset="1" stop-color="rgba(255,255,255,0.3)" />
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="currentColor" stroke-width="8" opacity="0.6">
+    <circle cx="220" cy="220" r="120" />
+    <rect x="360" y="200" width="280" height="180" rx="28" />
+    <path d="M160 420h320c44 0 80 36 80 80H80c0-44 36-80 80-80z" />
+  </g>
+</svg>
